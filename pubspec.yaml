@@ -1,0 +1,39 @@
+name: envoy_siparis
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_progress_hud: ^2.0.0
+  flutter_slidable: ^0.6.0
+  flutter_svg: ^0.22.0
+  flutter_svg_provider: ^0.1.9
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: envoyRegular
+      fonts:
+        - asset: assets/fonts/envoyRegular.ttf
+
+    - family: montserratRegular
+      fonts:
+        - asset: assets/fonts/montserratRegular.ttf
